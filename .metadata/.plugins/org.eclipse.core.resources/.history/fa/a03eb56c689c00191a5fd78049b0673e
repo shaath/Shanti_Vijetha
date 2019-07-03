@@ -1,0 +1,18 @@
+package testNG;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeSuite;
+
+public class OrgLib 
+{
+	public static WebDriver driver;
+	public static String url="http://orangehrm.qedgetech.com";
+	@BeforeSuite
+	public void org_Launch()
+	{
+		driver=new FirefoxDriver();
+		driver.get();
+	}
+
+}

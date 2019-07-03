@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70243" started-at="2019-07-03T01:07:39Z" finished-at="2019-07-03T01:08:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70243" started-at="2019-07-03T01:07:39Z" finished-at="2019-07-03T01:08:50Z">
+      <class name="testNG.EmpReg_TestNG">
+        <test-method status="PASS" signature="org_Launch()[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_Launch" is-config="true" duration-ms="30426" started-at="2019-07-03T06:37:09Z" finished-at="2019-07-03T06:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_Launch -->
+        <test-method status="PASS" signature="org_Login()[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_Login" is-config="true" duration-ms="7837" started-at="2019-07-03T06:37:39Z" finished-at="2019-07-03T06:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_Login -->
+        <test-method status="PASS" signature="org_EmpReg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_EmpReg" duration-ms="13166" started-at="2019-07-03T06:37:47Z" data-provider="data" finished-at="2019-07-03T06:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TA5643]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_EmpReg -->
+        <test-method status="PASS" signature="org_EmpReg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_EmpReg" duration-ms="9501" started-at="2019-07-03T06:38:00Z" data-provider="data" finished-at="2019-07-03T06:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TA3443]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_EmpReg -->
+        <test-method status="PASS" signature="org_EmpReg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_EmpReg" duration-ms="13775" started-at="2019-07-03T06:38:10Z" data-provider="data" finished-at="2019-07-03T06:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TA5673]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_EmpReg -->
+        <test-method status="PASS" signature="org_EmpReg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_EmpReg" duration-ms="11442" started-at="2019-07-03T06:38:24Z" data-provider="data" finished-at="2019-07-03T06:38:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TA5609]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_EmpReg -->
+        <test-method status="PASS" signature="org_EmpReg(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_EmpReg" duration-ms="10788" started-at="2019-07-03T06:38:35Z" data-provider="data" finished-at="2019-07-03T06:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TA9653]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_EmpReg -->
+        <test-method status="PASS" signature="org_Logout()[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_Logout" is-config="true" duration-ms="3638" started-at="2019-07-03T06:38:46Z" finished-at="2019-07-03T06:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_Logout -->
+        <test-method status="PASS" signature="org_Close()[pri:0, instance:testNG.EmpReg_TestNG@2aaf7cc2]" name="org_Close" is-config="true" duration-ms="55" started-at="2019-07-03T06:38:50Z" finished-at="2019-07-03T06:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- org_Close -->
+      </class> <!-- testNG.EmpReg_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

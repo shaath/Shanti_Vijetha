@@ -1,0 +1,40 @@
+package testNG;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class OrgLib 
+{
+	public static WebDriver driver;
+	public static String url="http://orangehrm.qedgetech.com";
+	public static String u="Admin",p="Qedge123!@#";
+	public static String expval,actval;
+	@BeforeSuite
+	public void org_Launch()
+	{
+		expval="LOGIN";
+		driver=new FirefoxDriver();
+		driver.get(url);
+		driver.manage().window().maximize();
+		actval=driver.findElement(By.id("btnLogin")).getAttribute("value");
+		Assert.assertEquals(actval, expval, "Launch Failed");
+		
+	}
+	
+	@BeforeTest
+	public void org_Login()
+	{
+		expval="welcome";
+		driver.findElement(By.id("txtUsername")).sendKeys(u);
+		driver.findElement(By.id("txtPassword")).sendKeys(p);
+		driver.findElement(By.id("btnLogin")).click();
+		Thread.sleep(3000);
+		
+		actval=driver.findElement(By.partialLinkText("Welcome")).getAttribute("id");
+	}
+
+}
